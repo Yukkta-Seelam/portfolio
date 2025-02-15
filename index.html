@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Yukkta Seelam - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,6 +21,7 @@
         section {
             margin: 50px auto;
             max-width: 800px;
+            text-align: left;
         }
         .project {
             border-bottom: 1px solid #ddd;
@@ -31,6 +32,13 @@
             padding: 20px;
             background-color: #eee;
         }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -39,24 +47,48 @@
     </header>
     <section id="about">
         <h2>About Me</h2>
-        <p>A short introduction about yourself.</p>
+        <p>
+            I am a Master's student in Robotics and Autonomous Systems at Boston University, with a strong academic background in Electrical Engineering from the Indian Institute of Technology Kanpur. My research and projects focus on robotics, AI, and machine learning, with experience in obstacle avoidance, path planning, music synthesis, and combat robotics. I have worked on real-world applications such as autonomous rovers, AI combat robots, and audio event detection. I am passionate about leveraging technology to solve complex problems and innovate in the field of robotics.
+        </p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of the project.</p>
+            <h3>Obstacle Avoidance and Path Planning for Rover</h3>
+            <p>
+                Developed an algorithm for obstacle avoidance of the Clearpath Husky rover in an unfamiliar and dynamic environment. Implemented the algorithm in a real-life scenario, tasking the rover with harvesting fruits from apple trees in a garden. Employed selective fine-tuning on YOLOv8 for improved use-case sensitivity.
+            </p>
         </div>
         <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of the project.</p>
+            <h3>Music Synthesis using Generative Machine Learning</h3>
+            <p>
+                Created a music generation system leveraging a Variational Auto-Encoder, adapting established western techniques for generating nuanced pitch contours suited for the intricacies of Indian classical music. Pioneered a unique model extracting pitch contours from Indian classical music, preserving note-transitional information.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Development of AI Combat Robots</h3>
+            <p>
+                Engineered autonomous combat robots with advanced AI capabilities, attaining 85% mean Average Precision for real-time enemy detection and 90% accuracy in dynamic target shooting within an eight-meter range. Performed advanced localization and path planning for combat robots in dynamic arenas using visual markers, Eigen transforms, A* planning, and embedded NVIDIA GPUs.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Audio Event Detection</h3>
+            <p>
+                Revised models for accurate multiple audio event detection and classification through cross-correlations. Utilized Mel-filter banks, K-class Discriminant to extract MFCC features, achieving precise audio classification across 10 distinct classes. Deployed LSTM for tagging audio samples into similar 10 classes at each time step.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Rover Development</h3>
+            <p>
+                Constructed a customizable research robot, including power management, battery management, and motor control modules. Integrated sub-modules using open-source software, programmed micro-controller, and enabled remote control operation. Simulated a model for three-degrees-of-freedom gripper arm with a 3Kg payload.
+            </p>
         </div>
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>Ph. No.: +1 (857)540-9665</p>
-        <p>Email: yukktas@bu.edu</p>
-        <p>LinkedIn: <a href="#">https://www.linkedin.com/in/yukkta-seelam-20306b213/</a></p>
+        <p>Ph. No.: +1 (857) 540-9665</p>
+        <p>Email: <a href="mailto:yukktase@bu.edu">yukktase@bu.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yukkta-seelam-20306b213/" target="_blank">Yukkta Seelam</a></p>
     </section>
     <footer>
         &copy; 2025 Yukkta Seelam
